@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Projeto Ordenha Inteligente" />
+        <meta name="author" content="Juan" />
+        <title>Ordenha inteligente</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Juan Pedro</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Página principal</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h2 class="mb-0">
+                        Ordenha Inteligente
+                        <span class="text-primary">Startup Weekend CEU UNIFEI 2017</span>
+                    </h2>
+                    <div class="subheading mb-5">
+
+                        <a>Evento realizado no centro de empreendedorismo da universidade federal de Itajubá</a>
+                    </div>
+                    <p class="lead mb-5">
+                        Os eventos Startups Weekends são reconhecidos pelo mundo todo como grandes oportunidades de aprendizado e para fazer network,
+                        aonde pessoas com ideias de produtos de juntam no evento para em um final de semana, encontrarem um time e criarem um MVP - Mínimo produto
+                        viável. Especificamente neste Startup Weekend, o qual era focado em hardware (Maker), me inscrevi com o projeto da ordenha inteligente
+                        junto com o meu time formado por 3 pessoas originalmente.
+                    </p></br>
+                    <h3> Origem da ideia</h3>
+                    <p class="lead mb-5">
+                        Junto com três colegas de república na época de universidade, estavamos com a ideia de juntar as habilidades do grupo que contava com estudantes de três engenharias distintas, Eng Elétrica, de Controle e Automação e Computação, para montar uma pequena empresa ou
+                        startup, entretando faltava definir o problema que gostarímos de solucionar com nosso produto. Um dos membros do time tinha familiares produtores de leite
+                        e nos contou as várias dificuldades e dores do mundo Agro Brasileiro quando se falava de produção de leite. Após validação com produtores reais, decidimos que essa
+                        seria a área de atuação e após muitos BraimStorms e validações, estruturamos o design de um mínimo produto viável.
+                    </p>
+                    <h3> O Problema</h3>
+                    <p class="lead mb-5">
+                        Para a produção de leite no Brasil é preciso ter um controle rigoroso da produção e manejo, tendo em vista a baixa margem e doenças infecciosas
+                        com alta transmissão que podem rapidamente contaminar parte do rebanho e impactar drasticamente a produção. Para se gerenciar e controlar a produção
+                        muitos produtores utilizavam técnicas rudimentares que tornavam o cotidiano da produção de leite extremamente árduo com alta probabilidade
+                        de erros de logística e manejo.
+
+                    </p>
+                    <h3> O Desafio</h3>
+                    <p class="lead mb-5">
+                        O cliente em campo que utilizaria qualquer tipo de solução desenvolvida para atenuar ou solucionar tais problemas, apresentava em grande maioria caracteristicas similares com relação a dificuldade
+                        da utilização de tecnologias conteporâneas, tais como, a utilização de produtos digitais. Quem de fato seria o executor da solução para a produção de leite, seriam operários rurais contratados para tal serviço,
+                        estes operários em grande parcela apresentavam, baixa escolaridade e imensa dificuldade em manusear tecnologia.
+
+                    </p>
+                    <h3> O Protótipo</h3>
+                    <p class="lead mb-5">
+                        Construimos uma solução composta por hardware + Software embarcado + Sistema Web, sistema formado por estruturas de IOT - Internet  Of Things, com o objetivo
+                        de aquisitar e registrar em um banco de dados as leituras de Condutividade, Temperatura e volume de leite produzido por cada nimal, através de um hardware de desenvolvimento com
+                        placa Wifi (ESP32) acoplado com sensores de temperatura pt100, sensor de condutividade de fabricação própria em aço inox e um recipiente de bombeamento para cálculo de volume. Este sistema, funcionava em uma lógica de máquina de estados.</br>A partir dessas informações era realizado
+                        via linguagem PHP alguns cálculos no servidor (Digital Ocean free via Github Student Pack) e a informação de otimização da produção era enviada para
+                        uma página responsiva web extremamente didática, feita com Bootstrap. Essas informações avisavam o produtor caso algum animal tivesse mudanças drásticas de parâmetros, isso significava que deveria de se ter uma mudança
+                        imediata no manejo, para reagrupar o animal de forma que não contaminasse os outros no início dos sintomas, pois poderia ser uma infecção chamada Mastite, a qual tira
+                        de produção o animal por meses. Este projeto conseguiu pela boa validação e protótipo ganhar o primeiro lugar no Startup Weekend Maker HackLab.
+
+                    </p>
+                </div>
+            </section>
+            
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
